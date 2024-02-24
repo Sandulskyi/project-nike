@@ -83,9 +83,6 @@
         <div class="container">
             <h3 class="reviews-tittle">Reviews</h3>
             <div class="all-review">
-                <div class="review-flowers">
-                    <img src="./images/flowers.png" alt="flowers">
-                </div>
                 <ul class="review-list">
                     <li class="review-1">
                         <p class="review-text">
@@ -97,8 +94,10 @@
                         <p class="review-data">25.11</p>
                         <div class="review-info">
                             <img class="review-img" src="./images/people-1.png" alt="people-1">
-                            <h3 class="review-name">John Teylor</h3>
-                            <p class="review-from-year">With us from 2018</p>
+                            <div class="review-group">
+                                <h3 class="review-name">John Teylor</h3>
+                                <p class="review-from-year">With us from 2018</p>
+                            </div>
                         </div>
                     </li>
                     <li class="review-2">
@@ -109,8 +108,10 @@
                         <p class="review-data">05.01</p>
                         <div class="review-info">
                             <img class="review-img" src="./images/people-2.png" alt="people-2">
-                            <h3 class="review-name">Elizabeth Garsia</h3>
-                            <p class="review-from-year">With us from 2020</p>
+                            <div class="review-group">
+                                <h3 class="review-name">Elizabeth Garsia</h3>
+                                <p class="review-from-year">With us from 2020</p>
+                            </div>
                         </div>
                     </li>
                     <li class="review-3">
@@ -121,8 +122,10 @@
                         <p class="review-data">18.06</p>
                         <div class="review-info">
                             <img class="review-img" src="./images/people-3.png" alt="people-3">
-                            <h3 class="review-name">Tom Maquare</h3>
-                            <p class="review-from-year">With us from 2019</p>
+                            <div class="review-group">
+                                <h3 class="review-name">Tom Maquare</h3>
+                                <p class="review-from-year">With us from 2019</p>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -132,39 +135,13 @@
     <section class="order">
         <div class="container">
             <h2 class="order-tittle">Order</h2>
-            <div class="email-order">
-                <form>
-                    <label>
+                <form class="order-form">
                         <input class="order-email" type="email" placeholder="Write your email">
-                    </label>
+                        <input class="order-input" type="text" placeholder="Your Country">
+                        <input class="order-input" type="text" placeholder="Your City">
+                        <input class="order-input" type="text" placeholder="Your Adress">
+                        <button class="button-order" type="submit">Order my nike</button>
                 </form>
-            </div>
-            <ul class="order-list">
-                <li class="order-item">
-                    <form>
-                        <label>
-                            <input class="order-input" type="text" placeholder="Your Country">
-                        </label>
-                    </form>
-                </li>
-                <li class="order-item">
-                    <form>
-                        <label>
-                            <input class="order-input" type="text" placeholder="Your City">
-                        </label>
-                    </form>
-                </li>
-                <li class="order-item">
-                    <form>
-                        <label>
-                            <input class="order-input" type="text" placeholder="Your Adress">
-                        </label>
-                    </form>
-                </li>
-                <li class="order-item">
-                    <button class="button-order" type="submit">Order my nike</button>
-                </li>
-            </ul>
         </div>
     </section>
     <!-- footer -->
@@ -192,10 +169,10 @@
                 <div class="footer-info">
                     <p class="footer-info-text">2022 ColoRawe @All rights reserved</p>
                     <p class="footer-info-text">United States</p>
+                </div>
                     <div class="footer-brand">
                         <img class="footer-logo" src="./images/nike-logo.png" alt="Nike">
                         <span class="footer-brand-sign">C&R</span>
-                    </div>
                 </div>
             </div>
         </div>
